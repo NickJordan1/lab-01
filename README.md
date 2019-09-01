@@ -1,6 +1,6 @@
 # CMPSC 100-03 Lab Session 1: Docker & Unix
 
-In this laboratory session, we concentrate our efforts on in-depth learning about how Docker & Unix (Ubuntu-flavor) work. We explore (in a partially particular order):
+In this laboratory session, we concentrate our efforts on in-depth learning about how Docker & Unix (Ubuntu "flavor") work. We explore (in a partially particular order):
 
 * Building Docker files
 * Running Docker files
