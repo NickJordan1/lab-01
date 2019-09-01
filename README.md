@@ -345,7 +345,7 @@ For this adventure, we're going to access a `Dockerfile` written specifically fo
 
 In your computer's terminal (be careful that you're not still in a `container`, if so: `exit`):
 
-- [ ] Traverse to the `cmpsc-100-fall-2019-lab-01` directory. 
+- [ ] Traverse to the `lab-01` directory. 
 
 * Protip: in Unix and Unix-like terminals, if you write **part** of the title of the folder or file you'd like to access, hitting the `Tab` key often completes it at the prompt. Try it. If you have difficulties call a TL or the professor over to demonstrate.
 
