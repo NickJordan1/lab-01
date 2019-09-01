@@ -441,7 +441,7 @@ Let's peek into some files to see what they contain.
 
 It looks like someone has shipped us some very important data in this `container`, and we want to save it. Thankfully, _we mounted our drive, and can move it all to a safe place_!
 
-![The Gator Wizard](https://cs.allegheny.edu/sites/dluman/cmpsc100/img/cmpsc-100-gator-wizard-.png)
+![The Gator Wizard](https://cs.allegheny.edu/sites/dluman/cmpsc100/img/cmpsc-100-gator-wizard.png)
 
 **But!** The Gator Wizard is upset. He sees that there are CSV files in this directory and thinks that the extension stands for "**C**rocodile **S**ave **V**ersion!" He wants us to cast a spell to **delete** them!
 
