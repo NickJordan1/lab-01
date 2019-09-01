@@ -71,17 +71,17 @@ This is an `image`:
 
 _But_, it's not what we mean when we say `image` when we talk about Docker.
 
-The term "image" can also refer to a "snapshot" of a computer's _secondary memory_. The complete picture of everything on your computer _right now_ could constitute an `image`. In fact, we _could_ build a `image` of your computer right now and install it on someone else's, effectively creating a copy of your entire `file system`.
+The term `image`, in this context, refers to a "snapshot" of a computer's _secondary memory_. The complete picture of everything on your computer _right now_ could constitute an `image`. In fact, we _could_ build a `image` of your computer and install it on someone else's, effectively creating a copy of your entire `file system`.
 
-Docker uses the term `image` to describe the product of a "snapshot" of a system, created by the `Dockerfile`.
+Docker uses the term `image` to describe the product of a "snapshot" of a virtual system, and is created by a `Dockerfile`.
 
 #### The `Dockerfile`
 
 These files contain commands which help build an `image`. They can be simple or complex, depending on what a user needs a `container` to do. General practice for using `container`s is to pack "light," or only include the _absolute minimum_ necessary to perform a specific operation or run a specific program. The following is an example of a `Dockerfile` that builds a simple Unix `container`:
 
-`
+```
 FROM ubuntu
-`
+```
 
 Here, `ubuntu` is what is referred to as a _base `image`_, or the minimum possible configuration for starting a commonly-used resource--in this case, the Unix distribution named "Ubuntu" (the same Unix "flavor" that we will use in this course). We will use two `Dockerfile`s using this `image` later in this exercise.
 
@@ -102,11 +102,11 @@ In this part of the exercise, we will run the Ubuntu _base `image`_.
 ##### Docker Toolbox users
 
 - [ ] Open the "Docker Quickstart Terminal"
-* When this lab assignment uses the word `terminal`, this is interchangeable with the Docker Quickstart Terminal
+* When this lab assignment uses the word `terminal`, it is interchangeable with the Docker Quickstart Terminal
 
 ##### Base `image`s
 
-- [ ] In your terminal window, type `docker `image`s`
+- [ ] In your terminal window, type `docker image`
 * Make a note of what you see; what does this list display?
 * Are there any items there? Where did they come from (think back to the last Practical)?
 
