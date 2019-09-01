@@ -391,14 +391,14 @@ We're going to add another `flag` to this Docker instance to avoid the issue we 
 
 - [ ] At your terminal prompt, type: 
 ```
-docker run -it --mount type=bind,source=$(pwd),target=/home/cmpsc100/mount --hostname ubuntu-explore ubuntu-explore
+docker run -it --mount type=bind,source="$(pwd)",target=/home/cmpsc100/mount --hostname ubuntu-explore ubuntu-explore
 ```
 
 Here we added two `flag`s with several `parameters`. Let's break them down:
 
 #### `--mount`
 
-Like any computer, users have to attach _secondary memory_ to store files in a semi-permanent manner. The last example disposed of all of the files because `container`s load into _main memory_ only. Here, we're attaching our hard drive's current working directory to the `container` so that we're saving our work.
+Like any computer, users have to attach _secondary memory_ to store files in a semi-permanent manner. The last example disposed of all of the files because `container`s load into _main memory_ only. Here, we're attaching (`mount`ing) our hard drive's current working directory to the `container` so that we're saving our work.
 
 The `parameters` we've added include:
 * `type=bind`
@@ -441,7 +441,7 @@ Let's peek into some files to see what they contain.
 
 It looks like someone has shipped us some very important data in this `container`, and we want to save it. Thankfully, _we mounted our drive, and can move it all to a safe place_!
 
-**But!** The Gator Wizard is upset. He sees that there are CSV files in this directory and thinks that the extension stands for "**C*rocodile **S**ave **V**ersion! He wants us to cast a spell to **delete** them!
+**But!** The Gator Wizard is upset. He sees that there are CSV files in this directory and thinks that the extension stands for "**C**rocodile **S**ave **V**ersion! He wants us to cast a spell to **delete** them!
 
 Thankfully, we have a handy trick to do that.
 
