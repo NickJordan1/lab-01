@@ -389,7 +389,10 @@ Once the `process` completes, you should have a new `image` titled ("tagged") "u
 
 We're going to add another `flag` to this Docker instance to avoid the issue we just had when we attempted to access a `container` and found all of our files gone.
 
-- [ ] At your terminal prompt, type `docker run -it **--mount type=bind,source=$(pwd),target=/home/cmpsc100/mount** **--hostname ubuntu-explore** ubuntu-explore`
+- [ ] At your terminal prompt, type: 
+```
+docker run -it **--mount type=bind,source=$(pwd),target=/home/cmpsc100/mount** **--hostname ubuntu-explore** ubuntu-explore
+```
 
 Here we added two `flag`s with several `parameters`. Let's break them down:
 
