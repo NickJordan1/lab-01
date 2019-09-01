@@ -468,7 +468,7 @@ This game involves moving through directories and copying or moving or copying f
 
 * There are several pictures of my cat, Ulysses, scattered among the various directories in the `image`.
 * Your job is to find them all and copy them to the `/home/cmpsc100/mount` or `~/mount` (samed place) directory.
-* When you are finished, type `done` to finish the game.
+* When you are finished, type `done` at the `command` prompt to finish the game.
 
 * Hint: When the `container` runs, type `answers` at the `command` prompt to check how many pictures of Ulysses there are.
 
