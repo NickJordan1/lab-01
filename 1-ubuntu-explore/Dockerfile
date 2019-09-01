@@ -3,6 +3,7 @@ FROM ubuntu
 # Run update, install missing utilities necessary for image build
 RUN apt-get update
 RUN apt-get install -y sudo
+RUN apt-get install -y wget
 # Create the class user
 RUN useradd cmpsc100
 RUN mkdir /home/cmpsc100

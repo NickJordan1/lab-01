@@ -3,6 +3,7 @@ FROM ubuntu
 # Run update, install missing utilities necessary for image build/use
 RUN apt-get update
 RUN apt-get install -y less
+RUN apt-get install -y wget
 # Create conditions for /etc/motd to display on terminal connect
 RUN echo '[ ! -z "$TERM" -a -r /etc/motd ] && cat /etc/motd' >> /etc/bash.bashrc
 # Create the class user

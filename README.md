@@ -391,7 +391,7 @@ We're going to add another `flag` to this Docker instance to avoid the issue we 
 
 - [ ] At your terminal prompt, type: 
 ```
-docker run -it **--mount type=bind,source=$(pwd),target=/home/cmpsc100/mount** **--hostname ubuntu-explore** ubuntu-explore
+docker run -it --mount type=bind,source=$(pwd),target=/home/cmpsc100/mount --hostname ubuntu-explore ubuntu-explore
 ```
 
 Here we added two `flag`s with several `parameters`. Let's break them down:
@@ -481,6 +481,8 @@ This game involves everything you've learned so far in this lab exercise, which 
     * Manipulate files
 
 The goal of this game is to find Prof. Luman's cat wherever it lives in your `container`'s `file system`! This is randomly generated on each build, so no two users' experiences will be the same.
+
+* At any time, type `rules` in the terminal to display the message given at container start-up
 
 Back on your local machine:
 
