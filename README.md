@@ -28,6 +28,10 @@ If you have not already done so, I recommend reading the [GitHub Guides](https:/
 
 In adddition, you may find a cheatsheet for Unix `command`s helpful throughout your time here. I recommend [this one](https://files.fosswire.com/2007/08/fwunixref.pdf) from FOSSwire. You may not need all of these in this course, but someday I guarantee you'll have to do something obscure in Unix. This sheet, of course, is only a start to the many, many different strange (& often accidental) combinations that you can make with `command`s and "piping."
 
+As for a markdown cheatsheet, [this GitHub repository](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) serves as a useful guide.
+
+If you find either helpful, I suggest bookmarking them.
+
 ## Table of Contents
 
 * [A deeper dive into Docker](#a-deeper-dive-into-docker)
