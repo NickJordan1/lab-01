@@ -324,8 +324,6 @@ Now, let's return to our `container` and work on `file1` - `file4`
 
 ![This is fine.](https://i.kym-cdn.com/photos/images/newsfeed/001/213/411/146.gif)
 
-_This is fine._
-
 Uh...where's your work?
 
 **Oh, you lost it. Good job.**
