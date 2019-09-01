@@ -134,7 +134,7 @@ To turn the `ubuntu` `image` into a `container`, we need to use the `docker run`
 
 ###### Commands & flags
 
-In this assignment, we've already used some `commands` and ``program`s`.
+In this assignment, we've already used some `command`s and `program`s.
 
 - [ ] Which have been `program`s and which have been `command`s?
 * Hint: `docker` is a `program`.
