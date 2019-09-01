@@ -53,9 +53,9 @@ Broadly this sessions goals are:
 
 ### A deeper dive into Docker
 
-![He tasks me; he heaps me; I see in him outrageous strength, with an inscrutable malice sinewing it. That inscrutable thing is chiefly what I hate; and be the white whale agent, or be the white whale principal, I will wreak that hate upon him. Talk not to me of blasphemy, man; I'd strike the sun if it insulted me.](https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png)
+![Call me Ishmael.](https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png)
 
-Docker relies on two fundamental file types:
+Docker relies on three (3) fundamental object types:
 
 * `image`s
 * The `Dockerfile`
