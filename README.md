@@ -35,7 +35,7 @@ In adddition, you may find a cheatsheet for Unix commands helpful throughout you
 * [First foray into Unix](#first-foray-into-unix)
     * [The Unix prompt](#the-unix-prompt)
     * [Basic commands](#basic-commands)
-    * [Working in Unix inside a `container`](#working-inside-unix-in-a-container)
+    * [Working inside a `container`](#working-inside-a-container)
 * [Second foray into Unix](#second-foray-into-unix)
     * [Building another `image`](#building-another-image)
     * [Working with mounted drives](#working-with-mounted-drives)
@@ -186,7 +186,7 @@ First I must caution you, young Jedi: with great power, great responsibility.
 
 In this `container` you have assumed the magical guise of a user known as `root`. This is a very powerful position. Within reason, as `root`, you can do _anything you want_ in a computer system. Be careful, because here you will get the result which match exactly what you asked the system to do, whether it was want you wanted or not. A reminder of this power is that the character which ends the `command` prompt is an octothorpe `#` (a.k.a. "pound" or "hash" sign).
 
-### Basic commands for fun & profit
+### Basic commands
 
 #### Traversing a `file system`
 
