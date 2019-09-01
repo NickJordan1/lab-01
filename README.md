@@ -71,7 +71,7 @@ This is an `image`:
 
 _But_, it's not what we mean when we say `image` when we talk about Docker.
 
-The term "`image`" can also refer to a "snapshot" of a computer's _secondary memory_. The complete picture of everything on your computer _right now_ could constitute an `image`. In fact, we _could_ build a `image` of your computer right now and install it on someone else's, effectively creating a copy of your entire `file system`.
+The term "image" can also refer to a "snapshot" of a computer's _secondary memory_. The complete picture of everything on your computer _right now_ could constitute an `image`. In fact, we _could_ build a `image` of your computer right now and install it on someone else's, effectively creating a copy of your entire `file system`.
 
 Docker uses the term `image` to describe the product of a "snapshot" of a system, created by the `Dockerfile`.
 
@@ -120,7 +120,7 @@ Docker will always look _locally_ (that is, on your computer) for `image`s first
 Using default tag: latest
 latest: Pulling from library/ubuntu
 Digest: sha256:d1d454df0f579c6be4d8161d227462d69e163a8ff9d20a847533989cf0c94d90
-Status: Downloaded newer `image` for ubuntu:latest
+Status: Downloaded newer image for ubuntu:latest
 ```
 
 - [ ]Type `docker `image`s` again and press `Enter`
@@ -167,7 +167,7 @@ We will revisit this conversation as we explore Unix further today.
 
 As if magic (but it really is magic), you have been transported into a Unix operating system session on your computer which _runs a completely different operating system_. Think of this like the "picture-in-picture" feature on a TV; yes, you can watch two "channels" at once. You are inside a running `container` which "boots" directly to a command prompt.
 
-Unlike a terminal session, which may allow some of the same commands, this is a fully-fledged Unix system. However, thinking back to the brief discussion of the purpose of ``image`s` and ``container`s` above, it's _extremely minimal_. Not everything is available. But, let's explore what we can do.
+Unlike a terminal session, which may allow some of the same commands, this is a fully-fledged Unix system. However, thinking back to the brief discussion of the purpose of `image`s and `container`s above, it's _extremely minimal_. Not everything is available. But, let's explore what we can do.
 
 ### The Unix prompt
 
@@ -485,7 +485,7 @@ Now that you have completed the first lab, there are two items remaining on your
 
 - [ ] In the main folder of the repository (`cmpsc-100-fall-2019-lab-01`), create a file named `reflection.md`
 - [ ] Using markdown (see resources above), write a reflection on difficulties, successes, joys, frustrations of the lab experience in addition to answering:
-    * Given your experience with this assignment, how would you describe the relationship of ``Dockerfile`s`, ``container`s`, and ``image`s` in your own words?
+    * Given your experience with this assignment, how would you describe the relationship of `Dockerfile`s, `container`s, and `image`s in your own words?
     * About what points do you still have questions?
 
 #### `Commit` your repository
