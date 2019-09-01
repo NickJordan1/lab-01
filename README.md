@@ -40,7 +40,7 @@ In adddition, you may find a cheatsheet for Unix commands helpful throughout you
     * [Building another `image`](#building-another-image)
     * [Working with mounted drives](#working-with-mounted-drives)
 * [Meowtown: a Docker game](#meowtown-a-docker-game)
-* [Finishing & reflecting on the activity](#finishing-reflecting-on-the-activity)
+* [Finishing & reflecting on the activity](#finishing--reflecting-on-the-activity)
 
 ## Your assigment
 
