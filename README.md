@@ -523,7 +523,7 @@ Now that you have completed the first lab, there are two items remaining on your
 
 #### `Write` a reflection
 
-- [ ] In the main folder of the repository (`cmpsc-100-fall-2019-lab-01`), create a file named `reflection.md`
+- [ ] In the main folder of the repository, create a file named `reflection.md`
 - [ ] Using markdown (see resources above), write a reflection on difficulties, successes, joys, frustrations of the lab experience in addition to answering:
     * Given your experience with this assignment, how would you describe the relationship of `Dockerfile`s, `container`s, and `image`s in your own words?
     * About what points do you still have questions?
@@ -555,3 +555,5 @@ git push origin master
 ```
 
 * This will send all of your files to the GitHub repository for your version of the assignment.
+
+After the commit,  the additional files should appear on the page for your repository.
