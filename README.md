@@ -1,7 +1,7 @@
 # CMPSC 100-03 Lab Session 1: Docker & Unix
 
 * Assigned: 2 September 2019
-* Due: 9 September 2019
+* Due: 9 September 2019, by 11:59 PM
 * Point value: 30 pts
 
 In this laboratory session, we concentrate our efforts on in-depth learning about how Docker & Unix (Ubuntu "flavor") work. We explore (in a partially particular order):
@@ -17,7 +17,7 @@ In this laboratory session, we concentrate our efforts on in-depth learning abou
 ## General guidelines for laboratory sessions
 
 * **Follow steps carefully.** Laboratory sessions often get a bit more complicated than their preceeding Practical sessions. Especially for early sessions which expose you to platforms with which you may not be familiar, take notes on `command`s you run and their corresponding effects/outputs. If you find yourself stuck on a step, let a TL or the professor know! Laboratory sessions do not mean that we won't help you in the same way we do during Practicals.
-* **Regularly ask and answer questions.** Some of you may have more experience with the topics we're discussing than others. We can use this knowledge to our advantage. But, like in Practicals, let students try things for a while before offering help (**always _offer_ first**). To ask questions, use our [Slack](https://cmpsc100fall2019.slack.com)'s `#laboratory` channel.
+* **Regularly ask and answer questions.** Some of you may have more experience with the topics we're discussing than others. We can use this knowledge to our advantage. But, like in Practicals, let students try things for a while before offering help (**always _offer_ first**). To ask questions, use our [Slack](https://cmpsc100fall2019.slack.com)'s `#labs` channel.
 * **Store and transfer files using GitHub.** Various forms of file storage are more or less volatile. *You* are responsible for backing up and storing files. If you're unsure of files which have been changed, you can always type `git status` in the terminal for your working folder to determine what you need to back up.
 * **Keep all of your files.** See above, but also remember that you're responsible for the files you create.
 * **Back up your files regularly.** See above (& above-above).
@@ -69,6 +69,8 @@ Broadly this sessions goals are:
 
 #### Cloning the repository
 
+##### Getting the right download link
+
 - [ ] On the resulting repository's page, click the `Clone or download` button
 - [ ] In the upper right corner of the box that appears, click `Use SSH`
 - [ ] Copy the link that appears in the textbox below the phrase "Use a password with a protected key."
@@ -76,6 +78,16 @@ Broadly this sessions goals are:
     * Your operating system's native terminal (Mac OS & Unix)
     * Git Bash (Windows)
        * Git Bash is located in the "Start" menu under the "Git" entry.
+
+##### Adding your SSH key
+
+- [ ] In the terminal window, type `eval "$(ssh-agent -s)"`
+* This starts a `process` called `ssh-agent`. The `-s` flag starts it "silently."
+- [ ] Next, type `ssh-add ~/.ssh/id_Rsa`
+* You will need to supply the password that you created in the practical for this SSH key.
+
+##### Cloning
+
 - [ ] Type `cd ~` to go to your home directory, or choose an easily-accessible, memorable location
 - [ ] In the terminal window clone the repository
 * If I (the instructor) were to clone my own repository, I'd enter:
