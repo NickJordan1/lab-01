@@ -33,3 +33,4 @@ WORKDIR /home/cmpsc100
 USER cmpsc100
 # Default command, should none be set, is bash
 CMD ["bash"]
+docker build . -t ubuntu-explore
